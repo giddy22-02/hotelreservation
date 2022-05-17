@@ -1,0 +1,60 @@
+*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #152238;
+  --secondary-color: #f9a826;
+  --general-color: #ffffff;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+/*========================
+ [01] Navbar
+=========================*/
+.navbar {
+    padding: 20px;
+    background: var(--primary-color);
+  }
+  .navbar .nav-item {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .navbar .nav-item .nav-link {
+    color: var(--secondary-color);
+  }
+  .navbar .nav-item .active,
+  .navbar .nav-item .nav-link:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+  } 
+  .navbar button.navbar-toggler{
+    background-color: var(--secondary-color);
+    border: none;
+  }
+  ul.navbar-nav li.profile-dropdown {
+    margin-left: auto;
+    margin-right: 50px;
+  }
+  /*========================
+ [02] Home slider
+=========================*/
+.home-slider {
+    background: url("../images/pexels-quark-studio-3201921.jpg");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+  .home-slider h3 {
+    font-size: 2.5rem;
+    color: var(--general-color);
+    margin-top: 15rem;
+    margin-left: 5rem;
+    fo
