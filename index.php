@@ -18,7 +18,7 @@
     <!--========Start Navbar======-->
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
-            <img src="images/logo.png" alt="G-Tech Logo">
+            <img src="images/logo.png" alt="Eagle's hotel logo" width="150" height="150">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,17 +55,36 @@
         </div>
     </nav>
     <!--========End Navbar======-->
-      <!--========Start Home Slider===-->
-      <section class="home-slider d-flex justify-content-left" id="slider">
+    <!--========Start Home Slider===-->
+    <section class="home-slider d-flex justify-content-left" id="slider">
         <div class="container">
             <div class="row">
-                <div class="col-10">
-                    <h3 class="slogan">Welcome to  Eagle's Hotel</h3>
+                <div class="col-4">
+                    <div class="card" style="width: 40rem; background:#152238; color:#f9a826;">
+                        <div class="card-body">
+                            <h2 class="card-title">Welcome to Eagle's Hotel</h2>
+                            <p class="card-text">Where Quality is a priority.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!--========End  Home Slider=====-->
+    <!--========Welcome Start========-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card" style="width: 40rem; background:#152238; color:#f9a826;">
+                    <div class="card-body">
+                        <h2 class="card-title">Welcome to Eagle's Hotel</h2>
+                        <p class="card-text">Where Quality is a priority.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--========welcome End==========-->
     <!--Javascript libraries-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
