@@ -73,14 +73,17 @@
     <!--========End  Home Slider=====-->
     <!--========Welcome Start========-->
     <div class="container">
-        <div class="row">
+        <div class="row" style="margin-top: 5rem;">
             <div class="col-md-6">
-                <div class="card" style="width: 40rem; background:#152238; color:#f9a826;">
-                    <div class="card-body">
-                        <h2 class="card-title">Welcome to Eagle's Hotel</h2>
-                        <p class="card-text">Where Quality is a priority.</p>
-                    </div>
-                </div>
+                <img src="images/logo2.png" alt="Eagle's hotel logo" width="250" height="250">
+            </div>
+            <div class="col-md-6" style="background-color: #152238; color: #f9a826;">
+                <h1>WELCOME TO THE BEST LUXURY HOTEL IN NAIROBI</h1>
+                <p>Luxury and comfort that’s what describes Eagle's Hotel. We take pride in introducing ourselves as
+                    the best Five-star hotels in Nairobi, Kenya offering serene views with warm hospitality. Located
+                    just off Mombasa road, near Nairobi National Park, our hotel enjoys proximity to JKIA (12km), Wilson
+                    Airport (6km) and City Centre (10km). Our hotel is a perfect blend of service excellence, quality
+                    accommodation and quintessential conference facility. </p>
             </div>
         </div>
     </div>
