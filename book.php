@@ -12,7 +12,7 @@
     <!--Bootstrap Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
     <!--font-awesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="css/style.css">
@@ -77,12 +77,12 @@
         <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
             <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
                 <div class="col">
-                    <div class="card h-100 shadow-sm"> <img
-                            src="images/room1.jpg"
-                            class="card-img-top" alt="...">
+                    <div class="card h-100 shadow-sm"> <img src="images/room1.jpg" class="card-img-top" alt="...">
+                        <div class="label-top shadow-sm font-weight-bold">Regular</div>
                         <div class="card-body">
-                            <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-primary">ASUS
-                                    Rog</span> <span class="float-end price-hp">12354.00&euro;</span> </div>
+                            <div class="clearfix mb-3">
+                                <span class="float-end rounded-pill bg-warning">Kshs 15,000</span>
+                            </div>
                             <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
                                 quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
                                 ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
@@ -91,12 +91,11 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow-sm"> <img
-                            src="images/room3.jpg"
-                            class="card-img-top" alt="...">
+                    <div class="card h-100 shadow-sm"> <img src="images/room3.jpg" class="card-img-top" alt="...">
+                        <div class="label-top shadow-sm font-weight-bold">Executive</div>
                         <div class="card-body">
                             <div class="clearfix mb-3"> <span
-                                    class="float-start badge rounded-pill bg-success">12354.00&euro;</span> <span
+                                    class="float-start badge rounded-pill bg-success">Executive</span> <span
                                     class="float-end"><a href="#">Example</a></span> </div>
                             <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
                                 quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
@@ -106,9 +105,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow-sm"> <img
-                            src="images/room4.jpg"
-                            class="card-img-top" alt="...">
+                    <div class="card h-100 shadow-sm"> <img src="images/room4.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm">Asus Rog</div>
                         <div class="card-body">
                             <div class="clearfix mb-3"> <span
@@ -125,13 +122,12 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card h-100 shadow-sm"> <img
-                            src="images/room2.jpg"
-                            class="card-img-top" alt="...">
+                    <div class="card h-100 shadow-sm"> <img src="images/room2.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm font-weight-bold">VIP Package</div>
                         <div class="card-body">
-                            <div class="clearfix mb-3"> <span class="float-start" style="color: ;#152238">Kshs 80,000</span> <span
-                                    class="float-end"><a class="text-muted small" href="#">Reviews</a></span> </div>
+                            <div class="clearfix mb-3"> <span class="float-start" style="color:#152238;">Kshs
+                                    80,000</span> <span class="float-end"><a class="text-muted small"
+                                        href="#">Reviews</a></span> </div>
                             <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
                                 quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
                                 ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
