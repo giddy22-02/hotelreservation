@@ -432,3 +432,18 @@ padding: 10px;
 .footer .credit a {
   color: var(--general-color);
 }
+/*===================================
+ [08] Media
+=====================================*/
+@media (max-width: 575.99px) {
+  .slider h3 {
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    width: 80%;
+    font-weight: 700;
+    margin-left: 2rem;
+  }
+  .footer .row .box {
+    width: 100%;
+  }
+}

@@ -150,15 +150,15 @@
                     <div class="container">
                         <p>
                             <i class="bi bi-geo-alt-fill"></i>
-                            Riara University, Mbagathi Way
+                            Eagles Hotel, Mombasa Road
                         </p>
                         <p>
                             <i class="bi bi-telephone"></i>
-                            +254702499324
+                            +254713197097
                         </p>
                         <p>
                             <i class="bi-envelope"></i>
-                            info@gideontech.ac.ke
+                            info@eagleshotel.ac.ke
                         </p>
                     </div>
                 </div>
@@ -176,24 +176,22 @@
                 </p>
                 <p>
                     <i class="bi bi-envelope"></i>
-                    gideonkiplangat4@gmail.com.com
+                    eagleshotel@gmail.com.com
                 </p>
                 <p>
                     <i class="bi bi-telephone"></i>
-                    +254702499324
+                   +254713197097
                 </p>
                 <p>
                     <i class="bi bi-telephone"></i>
-                    +254759481381
+                    
                 </p>
             </div>
             <div class=" box col-lg-4 col-md-6 col-sm-6">
                 <h3>quick links</h3>
-                <a href="index.html">home</a>
-                <a href="about.html">about</a>
-                <a href="services.html">Services</a>
-                <a href="photo-gallery.html"> Photo Gallery</a>
-                <a href="contact.html">Contact Us</a>
+                <a href="index.php">home</a>
+                <a href="services.php">Services</a>
+                <a href="contact.php">Contact Us</a>
             </div>
             <div class="box col-lg-4 col-md-6 col-sm-6">
                 <h3>follow us</h3>
@@ -201,11 +199,11 @@
                     <i class="bi bi-instagram"></i>
                     Instagram
                 </a>
-                <a href="https://www.facebook.com/gedionkipla.somo">
+                <a href="#">
                     <i class="bi bi-facebook"></i>
                     facebook
                 </a>
-                <a href="https://ke.linkedin.com/in/gideon-kiplangat-aaa478179">
+                <a href="#">
                     <i class="bi bi-linkedin"></i>
                     linkedin
                 </a>
@@ -213,7 +211,7 @@
         </div>
         <h1 class="credit">
             Created by
-            <a href="#">Gideon Kiplangat</a>
+            <a href="index.php">Eagles Hotel</a>
             All rights reserved.
         </h1>
     </div>
