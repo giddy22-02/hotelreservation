@@ -306,3 +306,129 @@ footer {
   height: 80px;
   color: #fff
 }
+/*====================================
+[06] Contact us Page
+======================================*/
+.contact-slider {
+ background: url(../images/contact-welcome.jpeg);
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+.contact-slider .container .row h3{
+  color: var(--secondary-color);
+  margin-top: 12px;
+  font-weight: 600;
+}
+.contact-slider .container .row p{
+  color: var(--primary-color);
+  margin: 12px;
+  font-weight: 600;
+}
+/*-------------------
+contact form
+--------------------*/
+
+.contact-form{
+  margin-top: 0;
+  background: var(--secondary-color);
+}
+.contact-form .container{
+padding: 10px;
+}
+.contact-form .container h3{
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.contact-form .container .row .form-control{
+  border-radius: 15px;
+  padding: 10px;
+}
+.contact-form .container .row input :focus{
+  border: none;
+}
+.contact-form .container .row .form-control::placeholder{
+  color: var(--primary-color);
+}
+.contact-form .container .row .container{
+  margin-top: 2rem;
+}
+.contact-form .container .row .container i{
+  font-size:2rem;
+  margin:1rem;
+  color: var(--primary-color);
+}
+.contact-form .container .row .container p{
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.contact-form.btn{
+color:var(--primary-color);
+padding: 10px;
+}
+
+
+/*======================
+[07] Footer Section
+========================*/
+.footer {
+  background: var(--primary-color);
+  padding: 1rem;
+  width: 100%;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .row .box {
+  flex: 1 1 2rem;
+  margin: 1rem;
+}
+
+.footer .row .box h3 {
+  font-size: 1.4rem;
+  color: var(--general-color);
+  padding: 0.4rem 0;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer .row .box p {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
+.footer .row .box a {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+  padding: 0.4rem 0;
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 10px;
+}
+.footer .box-container .box a:hover {
+  color: var(--yellow);
+}
+
+.footer .row .box p i,
+.footer .row .box a i {
+  padding-right: 0.8rem;
+  color: var(--secondary-color);
+}
+
+.footer .credit {
+  font-size: 18px;
+  text-align: center;
+  border-top: 0.2rem solid var(--general-color);
+  padding: 2rem 1rem;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+  color: var(--secondary-color);
+}
+
+.footer .credit a {
+  color: var(--general-color);
+}

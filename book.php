@@ -40,7 +40,7 @@
                     <a class="nav-link" href="book.php">booking</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
                 <li class="nav-item dropdown profile-dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -86,7 +86,7 @@
                             <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
                                 quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
                                 ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
-                            <div class="text-center my-4"> <a href="#" class="btn btn-warning">Check offer</a> </div>
+                            <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
                         </div>
                     </div>
                 </div>
@@ -95,26 +95,26 @@
                         <div class="label-top shadow-sm font-weight-bold">Executive</div>
                         <div class="card-body">
                             <div class="clearfix mb-3"> <span
-                                    class="float-start badge rounded-pill bg-success">Executive</span> <span
+                                    class="float-start badge rounded-pill bg-success">Kshs 25,000</span> <span
                                     class="float-end"><a href="#">Example</a></span> </div>
                             <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
                                 quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
                                 ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
-                            <div class="d-grid gap-2 my-4"> <a href="#" class="btn btn-warning">Check offer</a> </div>
+                            <div class="d-grid gap-2 my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
                         </div>
                     </div>
                 </div>
                 <div class="col">
                     <div class="card h-100 shadow-sm"> <img src="images/room4.jpg" class="card-img-top" alt="...">
-                        <div class="label-top shadow-sm">Asus Rog</div>
+                        <div class="label-top shadow-sm">VIP Package</div>
                         <div class="card-body">
                             <div class="clearfix mb-3"> <span
-                                    class="float-start badge rounded-pill bg-success">12354.00&euro;</span> <span
+                                    class="float-start badge rounded-pill bg-success">Kshs 50,000</span> <span
                                     class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
                             <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
                                 quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
                                 ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
-                            <div class="text-center my-4"> <a href="#" class="btn btn-warning">Check offer</a> </div>
+                            <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
                             <div class="clearfix mb-1"> <span class="float-start"><i
                                         class="far fa-question-circle"></i></span> <span class="float-end"><i
                                         class="fas fa-plus"></i></span> </div>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="col">
                     <div class="card h-100 shadow-sm"> <img src="images/room2.jpg" class="card-img-top" alt="...">
-                        <div class="label-top shadow-sm font-weight-bold">VIP Package</div>
+                        <div class="label-top shadow-sm font-weight-bold">VVIP Package</div>
                         <div class="card-body">
                             <div class="clearfix mb-3"> <span class="float-start" style="color:#152238;">Kshs
                                     80,000</span> <span class="float-end"><a class="text-muted small"
