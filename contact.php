@@ -94,13 +94,15 @@
             <h3 class="text-center">Get in Touch</h3>
             <div class="row">
                 <div class="col-md-6 col-lg-6">
+                    <form action="admin/actions/send.php" method ="POST">
                     <div class="row">
                         <div class="col-md-6 col-lg-6">
                             <label for="Full-Name"></label>
                             <input
-                                type="email"
+                                type="text"
                                 class="form-control"
                                 id="Full-Name"
+                                name="fullname"
                                 placeholder="Full Name"
                             >
                         </div>
@@ -110,6 +112,7 @@
                                 type="text"
                                 class="form-control"
                                 id="Email-Address"
+                                name="email"
                                 placeholder="Email Address"
                             >
                         </div>
@@ -119,6 +122,7 @@
                                 type="tel"
                                 class="form-control"
                                 id="Phone-No"
+                                name="phone"
                                 placeholder="Phone No"
                             >
                         </div>
@@ -128,7 +132,8 @@
                                 type="text"
                                 class="form-control"
                                 id="Subject"
-                                placeholder="Subject"
+                                name="subject"
+                                placeholder="subject"
                             >
                         </div>
                     </div>
@@ -138,14 +143,18 @@
                             <textarea
                                 class="form-control"
                                 id="Text-Area"
+                                name="message"
                                 rows="3"
                                 placeholder="Your Message ..."
                             ></textarea>
                         </div>
                     </div>
                     <br>
-                    <button type="button" class="btn btn-dark">Send</button>
+                    <button type="submit" class="btn btn-dark">Send</button>
                 </div>
+                    </form>
+                   
+
                 <div class="col-md-6 col-lg-6">
                     <div class="container">
                         <p>
