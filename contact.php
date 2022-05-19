@@ -150,7 +150,7 @@
                     <div class="container">
                         <p>
                             <i class="bi bi-geo-alt-fill"></i>
-                            Eagles Hotel, Mombasa Road
+                            Eagles Hotel, Mombasa Road 
                         </p>
                         <p>
                             <i class="bi bi-telephone"></i>
