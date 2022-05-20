@@ -56,8 +56,43 @@
         </div>
     </nav>
     <!--========End Navbar======-->
-    <!--========Start Room Book===-->
-    <div class="container-fluid my-3">
+   <!--========Start Room Book===-->
+   <div class="row m-3">
+       <div class="col-md-6">
+       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="images/room1.jpg" alt="First slide" style="height:500;">
+                            
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/slide1.jpg" alt="Second slide"style="height:500;">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/conference1.jpg" alt="Third slide" style="height:500;">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="images/room4.jpg" alt="Third slide" style="height:500;">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+       </div>
+       <div class="col-md-6">
+       <div class="my-5">
         <form>
             <div class="form-row">
                 <div class="form-group col-md-6">
@@ -105,23 +140,38 @@
             <button type="submit" class="btn btn-primary">Sign in</button>
         </form>
     </div>
+        </div>
+   </div>
+   
 
     <!--========End  Home Room Book=====-->
     <!--rooms Start-->
     <main>
-        <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
+        <div class="bg-trasparent my-4 p-3" style="position: relative;">
             <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
                 <div class="col">
                     <div class="card h-100 shadow-sm"> <img src="images/room1.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm font-weight-bold">Regular</div>
                         <div class="card-body">
                             <div class="clearfix mb-3">
-                                <span class="float-end rounded-pill bg-warning">Kshs 15,000</span>
+                                <span class="float-start badge rounded-pill bg-success">Kshs 15,000</span>
                             </div>
-                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
-                                ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
-                            <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <i class="bi bi-cup-fill"></i>
+                                    Breakfast Not Included
+                                </div>
+                                <div class="col-md-4">
+                                    <i class='fas fa-car'></i>
+                                    Pick Up not Available
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="bi bi-person-check-fill"></i>
+                                    1person
+                                </div>
+                            </div>
+
+                            <div class="text-center my-4"> <a href="" class="btn btn-warning">Book Now</a> </div>
                         </div>
                     </div>
                 </div>
@@ -129,11 +179,22 @@
                     <div class="card h-100 shadow-sm"> <img src="images/room3.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm font-weight-bold">Executive</div>
                         <div class="card-body">
-                            <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">Kshs
-                                    25,000</span> <span class="float-end"><a href="#">Example</a></span> </div>
-                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
-                                ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                            <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">Kshs25,000</span> 
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <i class="bi bi-cup-fill"></i>
+                                    Breakfast Not Included
+                                </div>
+                                <div class="col-md-4">
+                                    <i class='fas fa-car'></i>
+                                    Pick Up not Available
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="bi bi-person-check-fill"></i>
+                                    1person
+                                </div>
+                            </div>
                             <div class="d-grid gap-2 my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
                         </div>
                     </div>
@@ -142,16 +203,24 @@
                     <div class="card h-100 shadow-sm"> <img src="images/room4.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm">VIP Package</div>
                         <div class="card-body">
-                            <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">Kshs
-                                    50,000</span> <span class="float-end"><a href="#"
-                                        class="small text-muted">Reviews</a></span> </div>
-                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
-                                ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                            <div class="clearfix mb-3"> 
+                                <span class="float-start badge rounded-pill bg-success">Kshs 50,000</span> 
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <i class="bi bi-cup-fill"></i>
+                                    Breakfast Not Included
+                                </div>
+                                <div class="col-md-4">
+                                    <i class='fas fa-car'></i>
+                                    Pick Up not Available
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="bi bi-person-check-fill"></i>
+                                    1person
+                                </div>
+                            </div>
                             <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
-                            <div class="clearfix mb-1"> <span class="float-start"><i
-                                        class="far fa-question-circle"></i></span> <span class="float-end"><i
-                                        class="fas fa-plus"></i></span> </div>
                         </div>
                     </div>
                 </div>
@@ -159,16 +228,25 @@
                     <div class="card h-100 shadow-sm"> <img src="images/room2.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm font-weight-bold">VVIP Package</div>
                         <div class="card-body">
-                            <div class="clearfix mb-3"> <span class="float-start" style="color:#152238;">Kshs
-                                    80,000</span> <span class="float-end"><a class="text-muted small"
-                                        href="#">Reviews</a></span> </div>
-                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
-                                ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                            <div class="clearfix mb-3"> 
+                                <span class="float-start badge rounded-pill bg-success">Kshs 80,000</span> 
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <i class="bi bi-cup-fill"></i>
+                                    Breakfast Not Included
+                                </div>
+                                <div class="col-md-4">
+                                    <i class='fas fa-car'></i>
+                                    Pick Up not Available
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="bi bi-person-check-fill"></i>
+                                    1person
+                                </div>
+                            </div>
                             <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
-                            <div class="clearfix mb-1"> <span class="float-start"><i
-                                        class="far fa-question-circle"></i></span> <span class="float-end"><i
-                                        class="fas fa-plus"></i></span> </div>
+                            
                         </div>
                     </div>
                 </div>

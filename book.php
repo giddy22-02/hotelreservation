@@ -98,7 +98,7 @@
                                 </div>
                             </div>
 
-                            <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
+                            <div class="text-center my-4"> <a href="book_one.php" class="btn btn-warning">Book Now</a> </div>
                         </div>
                     </div>
                 </div>
