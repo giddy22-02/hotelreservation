@@ -56,22 +56,57 @@
         </div>
     </nav>
     <!--========End Navbar======-->
-    <!--========Start Home Slider===-->
-    <section class="home-slider d-flex justify-content-left" id="slider">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <div class="card" style="width: 20rem; background:#152238; color:#f9a826;">
-                        <div class="card-body">
-                            <h2 class="card-title">Welcome to Eagle's Hotel</h2>
-                            <p class="card-text">Where Quality is a priority.</p>
-                        </div>
-                    </div>
+    <!--========Start Room Book===-->
+    <div class="container-fluid my-3">
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="inputPassword4">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
                 </div>
             </div>
-        </div>
-    </section>
-    <!--========End  Home Slider=====-->
+            <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="inputCity">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="form-group col-md-4">
+                    <label for="inputState">State</label>
+                    <select id="inputState" class="form-control">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Check me out
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </form>
+    </div>
+
+    <!--========End  Home Room Book=====-->
     <!--rooms Start-->
     <main>
         <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
@@ -82,17 +117,6 @@
                         <div class="card-body">
                             <div class="clearfix mb-3">
                                 <span class="float-end rounded-pill bg-warning">Kshs 15,000</span>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-4">
-                                    Breakfast Not Included
-                                </div>
-                                <div class="col-md-4">
-                                    Pick Up not Available
-                                </div>
-                                <div class="col-md-4">
-                                    1person
-                                </div>
                             </div>
                             <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
                                 quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
@@ -105,9 +129,8 @@
                     <div class="card h-100 shadow-sm"> <img src="images/room3.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm font-weight-bold">Executive</div>
                         <div class="card-body">
-                            <div class="clearfix mb-3"> <span
-                                    class="float-start badge rounded-pill bg-success">Kshs 25,000</span> <span
-                                    class="float-end"><a href="#">Example</a></span> </div>
+                            <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">Kshs
+                                    25,000</span> <span class="float-end"><a href="#">Example</a></span> </div>
                             <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
                                 quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
                                 ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
@@ -119,9 +142,9 @@
                     <div class="card h-100 shadow-sm"> <img src="images/room4.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm">VIP Package</div>
                         <div class="card-body">
-                            <div class="clearfix mb-3"> <span
-                                    class="float-start badge rounded-pill bg-success">Kshs 50,000</span> <span
-                                    class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
+                            <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">Kshs
+                                    50,000</span> <span class="float-end"><a href="#"
+                                        class="small text-muted">Reviews</a></span> </div>
                             <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
                                 quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
                                 ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
