@@ -74,29 +74,30 @@
     <!--========End  Home Slider=====-->
     <!--rooms Start-->
     <main>
-        <div class="container-fluid bg-trasparent my-4 p-3" style="position: relative;">
+        <div class="bg-trasparent my-4 p-3" style="position: relative;">
             <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
                 <div class="col">
                     <div class="card h-100 shadow-sm"> <img src="images/room1.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm font-weight-bold">Regular</div>
                         <div class="card-body">
                             <div class="clearfix mb-3">
-                                <span class="float-end rounded-pill bg-warning">Kshs 15,000</span>
+                                <span class="float-start badge rounded-pill bg-success">Kshs 15,000</span>
                             </div>
                             <div class="row">
                                 <div class="col-md-4">
+                                    <i class="bi bi-cup-fill"></i>
                                     Breakfast Not Included
                                 </div>
                                 <div class="col-md-4">
+                                    <i class='fas fa-car'></i>
                                     Pick Up not Available
                                 </div>
                                 <div class="col-md-4">
+                                    <i class="bi bi-person-check-fill"></i>
                                     1person
                                 </div>
                             </div>
-                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
-                                ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+
                             <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
                         </div>
                     </div>
@@ -105,12 +106,22 @@
                     <div class="card h-100 shadow-sm"> <img src="images/room3.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm font-weight-bold">Executive</div>
                         <div class="card-body">
-                            <div class="clearfix mb-3"> <span
-                                    class="float-start badge rounded-pill bg-success">Kshs 25,000</span> <span
-                                    class="float-end"><a href="#">Example</a></span> </div>
-                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
-                                ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                            <div class="clearfix mb-3"> <span class="float-start badge rounded-pill bg-success">Kshs25,000</span> 
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <i class="bi bi-cup-fill"></i>
+                                    Breakfast Not Included
+                                </div>
+                                <div class="col-md-4">
+                                    <i class='fas fa-car'></i>
+                                    Pick Up not Available
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="bi bi-person-check-fill"></i>
+                                    1person
+                                </div>
+                            </div>
                             <div class="d-grid gap-2 my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
                         </div>
                     </div>
@@ -119,12 +130,23 @@
                     <div class="card h-100 shadow-sm"> <img src="images/room4.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm">VIP Package</div>
                         <div class="card-body">
-                            <div class="clearfix mb-3"> <span
-                                    class="float-start badge rounded-pill bg-success">Kshs 50,000</span> <span
-                                    class="float-end"><a href="#" class="small text-muted">Reviews</a></span> </div>
-                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
-                                ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                            <div class="clearfix mb-3"> 
+                                <span class="float-start badge rounded-pill bg-success">Kshs 50,000</span> 
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <i class="bi bi-cup-fill"></i>
+                                    Breakfast Not Included
+                                </div>
+                                <div class="col-md-4">
+                                    <i class='fas fa-car'></i>
+                                    Pick Up not Available
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="bi bi-person-check-fill"></i>
+                                    1person
+                                </div>
+                            </div>
                             <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
                             <div class="clearfix mb-1"> <span class="float-start"><i
                                         class="far fa-question-circle"></i></span> <span class="float-end"><i
@@ -136,12 +158,23 @@
                     <div class="card h-100 shadow-sm"> <img src="images/room2.jpg" class="card-img-top" alt="...">
                         <div class="label-top shadow-sm font-weight-bold">VVIP Package</div>
                         <div class="card-body">
-                            <div class="clearfix mb-3"> <span class="float-start" style="color:#152238;">Kshs
-                                    80,000</span> <span class="float-end"><a class="text-muted small"
-                                        href="#">Reviews</a></span> </div>
-                            <h5 class="card-title">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
-                                quidem eaque ut eveniet aut quis rerum. Asperiores accusamus harum ducimus velit odit
-                                ut. Saepe, iste optio laudantium sed aliquam sequi.</h5>
+                            <div class="clearfix mb-3"> 
+                                <span class="float-start badge rounded-pill bg-success">Kshs 80,000</span> 
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <i class="bi bi-cup-fill"></i>
+                                    Breakfast Not Included
+                                </div>
+                                <div class="col-md-4">
+                                    <i class='fas fa-car'></i>
+                                    Pick Up not Available
+                                </div>
+                                <div class="col-md-4">
+                                    <i class="bi bi-person-check-fill"></i>
+                                    1person
+                                </div>
+                            </div>
                             <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
                             <div class="clearfix mb-1"> <span class="float-start"><i
                                         class="far fa-question-circle"></i></span> <span class="float-end"><i
