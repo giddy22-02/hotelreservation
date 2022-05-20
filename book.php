@@ -148,9 +148,6 @@
                                 </div>
                             </div>
                             <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
-                            <div class="clearfix mb-1"> <span class="float-start"><i
-                                        class="far fa-question-circle"></i></span> <span class="float-end"><i
-                                        class="fas fa-plus"></i></span> </div>
                         </div>
                     </div>
                 </div>
@@ -176,9 +173,7 @@
                                 </div>
                             </div>
                             <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
-                            <div class="clearfix mb-1"> <span class="float-start"><i
-                                        class="far fa-question-circle"></i></span> <span class="float-end"><i
-                                        class="fas fa-plus"></i></span> </div>
+                            
                         </div>
                     </div>
                 </div>
