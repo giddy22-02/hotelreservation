@@ -111,7 +111,7 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <i class="bi bi-cup-fill"></i>
-                                    Breakfast Not Included
+                                    Breakfast Included
                                 </div>
                                 <div class="col-md-4">
                                     <i class='fas fa-car'></i>
@@ -119,10 +119,10 @@
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    1person
+                                    2 person
                                 </div>
                             </div>
-                            <div class="d-grid gap-2 my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
+                            <div class="d-grid gap-2 my-4"> <a href="book_one.php" class="btn btn-warning">Book Now</a> </div>
                         </div>
                     </div>
                 </div>
@@ -136,7 +136,7 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <i class="bi bi-cup-fill"></i>
-                                    Breakfast Not Included
+                                    Breakfast Included
                                 </div>
                                 <div class="col-md-4">
                                     <i class='fas fa-car'></i>
@@ -144,10 +144,10 @@
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    1person
+                                    3person
                                 </div>
                             </div>
-                            <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
+                            <div class="text-center my-4"> <a href="book_one.php" class="btn btn-warning">Book Now</a> </div>
                         </div>
                     </div>
                 </div>
@@ -161,18 +161,18 @@
                             <div class="row">
                                 <div class="col-md-4">
                                     <i class="bi bi-cup-fill"></i>
-                                    Breakfast Not Included
+                                    Breakfast Included
                                 </div>
                                 <div class="col-md-4">
                                     <i class='fas fa-car'></i>
-                                    Pick Up not Available
+                                    Pick Up Available
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    1person
+                                    4 person
                                 </div>
                             </div>
-                            <div class="text-center my-4"> <a href="#" class="btn btn-warning">Book Now</a> </div>
+                            <div class="text-center my-4"> <a href="book_one.php" class="btn btn-warning">Book Now</a> </div>
                             
                         </div>
                     </div>

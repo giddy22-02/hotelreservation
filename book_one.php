@@ -5,6 +5,12 @@ session_start();
 if(!isset($_SESSION['fullname'])){
 header("Location:signin.php");
 }
+if(!isset($_SESSION['email'])){
+    header("Location:signin.php");
+}
+if(!isset($_SESSION['phone'])){
+    header("Location:signin.php");
+}
 
 //===============Session Start====================
 ?>
@@ -107,52 +113,40 @@ header("Location:signin.php");
        <div class="my-5">
         <form>
                 <div class="row">
-                <p>Name:<?php echo $_SESSION['fullname'];?></p>
+                    <div class="col-md-4">
+                    <p>Name:<?php echo $_SESSION['fullname'];?></p>
+                    </div>
+                    <div class="col-md-4">
+                    <p>Email:<?php echo $_SESSION['email'];?></p>
+                    </div>
+                    <div class="col-md-4">
+                    <p>Phone No:<?php echo $_SESSION['phone'];?></p>
+                    </div>
+               
                 </div>
+                <p>Room Type: <?php echo "Regular";?></p>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="inputEmail4">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                <label for="Checkin">Check In</label>
+                    <input type="date" class="form-control">
                 </div>
                 <div class="form-group col-md-6">
-                    <label for="inputPassword4">Password</label>
-                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                <label for="checkout">Check Out</label>
+                    <input type="date" class="form-control">
                 </div>
             </div>
-            <div class="form-group">
-                <label for="inputAddress">Address</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-            </div>
-            <div class="form-group">
-                <label for="inputAddress2">Address 2</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-            </div>
+            <h3>Card Payments</h3>
             <div class="form-row">
                 <div class="form-group col-md-6">
-                    <label for="inputCity">City</label>
-                    <input type="text" class="form-control" id="inputCity">
+                <label for="Checkin">Check In</label>
+                    <input type="date" class="form-control">
                 </div>
-                <div class="form-group col-md-4">
-                    <label for="inputState">State</label>
-                    <select id="inputState" class="form-control">
-                        <option selected>Choose...</option>
-                        <option>...</option>
-                    </select>
+                <div class="form-group col-md-6">
+                <label for="Checkin">Check In</label>
+                    <input type="date" class="form-control">
                 </div>
-                <div class="form-group col-md-2">
-                    <label for="inputZip">Zip</label>
-                    <input type="text" class="form-control" id="inputZip">
                 </div>
-            </div>
-            <div class="form-group">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" id="gridCheck">
-                    <label class="form-check-label" for="gridCheck">
-                        Check me out
-                    </label>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary">Sign in</button>
+            <button type="submit" class="btn btn-primary"style="background:#f9a826; color:#152238;">Book</button>
         </form>
     </div>
         </div>

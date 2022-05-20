@@ -5,6 +5,12 @@ error_reporting(0);
 if(isset($_SESSION['fullname'])){
     header("Location:signin.php");
 }
+if(isset($_SESSION['email'])){
+    header("Location:signin.php");
+}
+if(isset($_SESSION['phone'])){
+    header("Location:signin.php");
+}
 if(isset($_POST['submit'])){
     $email = $_POST['email'];
     $password =($_POST['password']);
@@ -13,6 +19,8 @@ if(isset($_POST['submit'])){
     if($result-> num_rows >0){
         $row = mysqli_fetch_assoc($result);
         $_SESSION['fullname'] = $row['fullname'];
+        $_SESSION['email'] = $row['email'];
+        $_SESSION['phone'] = $row['phone'];
         header("Location:book_one.php");
     }else {
         echo "<script>alert('Woops! Email or password is wrong.')</script>";
