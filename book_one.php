@@ -1,3 +1,13 @@
+<?php
+include ('admin/actions/connect.php');
+//===============Session Start====================
+session_start();
+if(!isset($_SESSION['fullname'])){
+header("Location:signin.php");
+}
+
+//===============Session Start====================
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -42,14 +52,16 @@
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
-                <li class="nav-item dropdown profile-dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Account
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Login</a>
-                        <a class="dropdown-item" href="#">Sign Up</a>
+                <li class="nav-item">
+                <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-expanded="false" style="color:#f9a826; background:#152238;">
+                            <?php echo "Welcome ". $_SESSION['fullname'];?>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Messages</a></li>
+                            <li><a class="dropdown-item" href="logout.php">Sign out</a></li>
+                        </ul>
                     </div>
                 </li>
             </ul>
@@ -94,6 +106,9 @@
        <div class="col-md-6">
        <div class="my-5">
         <form>
+                <div class="row">
+                <p>Name:<?php echo $_SESSION['fullname'];?></p>
+                </div>
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputEmail4">Email</label>

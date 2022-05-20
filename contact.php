@@ -109,7 +109,7 @@
                         <div class="col-md-6 col-lg-6">
                             <label for="Email-Address"></label>
                             <input
-                                type="text"
+                                type="email"
                                 class="form-control"
                                 id="Email-Address"
                                 name="email"

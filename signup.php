@@ -15,19 +15,22 @@
     <!--Login Container Start-->
     <div class="container text-center">
         <!--Form Start-->
-        <form action="" method="POST" class="login-email">
+        <form action="actions/add_sign_up.php" method="POST" class="login-email">
             <p class="login-text" style="font-size: 2rem; font-weight:800; color:#f9a826;">Sign Up</p>
             <div class="input-group">
                 <input type="email" placeholder="Email" name="email" required>
             </div>
             <div class="input-group">
-                <input type="text" placeholder="Username" name="username" required>
+                <input type="text" placeholder="Full Name" name="fullname" required>
+            </div>
+            <div class="input-group">
+                <input type="tel" placeholder="Phone No" name="phone" required>
             </div>
             <div class="input-group">
                 <input type="password" placeholder="Password" name="password" required>
             </div>
             <div class="input-group d-flex justify-content-center">
-                <button name="submit" class="btn" style="background:#152238; color:#f9a826;">Login</button>
+                <button name="submit" class="btn" style="background:#152238; color:#f9a826;">Sign Up</button>
             </div>
             <p>Already Have an Account <a href="signin.php">Login Here</a></p>
         </form>
