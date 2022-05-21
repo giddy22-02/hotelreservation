@@ -4,7 +4,7 @@ session_start();
     $email = $_POST['email'];
     $fullname = $_POST['fullname'];
     $phone = $_POST['phone'];
-    $password = $_POST['password'];
+    $password = md5($_POST['password']);
      //Check if the candidate ID Already Exist
      $check_id = mysqli_num_rows(mysqli_query($con, "SELECT email FROM users WHERE  email='$email'"));
      if ($check_id > 0) {

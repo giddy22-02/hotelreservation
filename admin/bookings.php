@@ -97,7 +97,7 @@ header("Location:../index.php");
             ?>
 
                 <footer class="pt-5 d-flex justify-content-between" style="color: #8c19c2; font-weight: 600;">
-                    <span>Copyright © 2021 <a href="#">Eagles Hotel </a></span>
+                    <span>Copyright © 2022 <a href="#">Eagles Hotel </a></span>
                     <ul class="nav m-0">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="#"

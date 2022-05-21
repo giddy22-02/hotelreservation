@@ -13,7 +13,7 @@ if(isset($_SESSION['phone'])){
 }
 if(isset($_POST['submit'])){
     $email = $_POST['email'];
-    $password =($_POST['password']);
+    $password =md5($_POST['password']);
     $sql = "SELECT * FROM users WHERE email ='$email' AND password='$password'";
     $result = mysqli_query($con, $sql);
     if($result-> num_rows >0){

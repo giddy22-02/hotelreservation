@@ -125,7 +125,7 @@ if(!isset($_SESSION['phone'])){
                     unset($_SESSION['status']);
                 }?>
                 <!--Notification Message upon submission-->
-                <form action="actions/i_book_one.php">
+                <form action="actions/i_book_one.php" method="POST">
                     <div class="row">
                         <div class="col-md-4">
                             <p>Name:
