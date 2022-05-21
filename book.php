@@ -140,7 +140,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <i class='fas fa-car'></i>
-                                    Pick Up not Available
+                                    Pick Up Available
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
