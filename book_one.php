@@ -148,7 +148,7 @@ if(!isset($_SESSION['phone'])){
                         <div class="form-group col-md-6">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <label for="Checkin">Room Type</label>
+                                    <label for="roomtype">Room Type</label>
                                 </div>
                                 <div class="col-md-8">
                                     <select name="roomtype" class="form-control w-80 m-auto" required="required">
@@ -168,7 +168,7 @@ if(!isset($_SESSION['phone'])){
                                     <label for="Checkin">Check In</label>
                                 </div>
                                 <div class="col-md-8">
-                                    <input type="date" name="checkin" class="form-control" required="required">
+                                    <input type="date"  class="form-control" name="checkin" required="required">
                                 </div>
                             </div>
                         </div>
@@ -291,8 +291,6 @@ if(!isset($_SESSION['phone'])){
             </div>
         </div>
     </div>
-
-
     <!--========End  Home Room Book=====-->
     <!--rooms Start-->
     <main>

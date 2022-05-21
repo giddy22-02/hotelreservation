@@ -1,9 +1,7 @@
 <?php
 include ('../admin/actions/connect.php');
 session_start();
-    $fullname = $_POST['fullname'];
-    $email = $_POST['email'];
-    $phone = $_POST['phone'];
+    
     $roomtype = $_POST['roomtype'];
     $checkin = $_POST['checkin'];
     $checkout = $_POST['checkout'];
@@ -12,10 +10,13 @@ session_start();
     $expiry_month = $_POST['exp_month'];
     $expiry_year = $_POST['exp_year'];
     $name_on_card = $_POST['name_on_card'];
+    $fullname = $_POST['fullname'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
 
    
-        $sql = "INSERT INTO bookings (fullname,email,phone,roomtype,checkin,checkout,card_number,security_code,exp_month,exp_year,name_on_card)
-        VALUES ('$fullname','$email','$phone','$roomtype','$checkin','$checkout','$card_number','$security_code','$expiry_month','$expiry_year','$name_on_card')";
+        $sql = "INSERT INTO bookings (roomtype,checkin,checkout,card_number,security_code,exp_month,exp_year,name_on_card,fullname,email,phone)
+        VALUES ('$roomtype','$checkin','$checkout','$card_number','$security_code','$expiry_month','$expiry_year','$name_on_card','$fullname','$email','$phone')";
         $result = mysqli_query($con, $sql);
         if ($result) {
            

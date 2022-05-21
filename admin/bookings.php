@@ -93,7 +93,7 @@ header("Location:../index.php");
                     </ol>
                 </nav>
                 <?php 
-            include ('messages.php');
+            include ('bookings_include.php');
             ?>
 
                 <footer class="pt-5 d-flex justify-content-between" style="color: #8c19c2; font-weight: 600;">
