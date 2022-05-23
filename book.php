@@ -34,23 +34,10 @@
                     <a class="nav-link active" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="book.php">booking</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact Us</a>
-                </li>
-                <li class="nav-item dropdown profile-dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Account
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Login</a>
-                        <a class="dropdown-item" href="#">Sign Up</a>
-                    </div>
                 </li>
             </ul>
         </div>
@@ -94,7 +81,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    1person
+                                    4 person
                                 </div>
                             </div>
 
@@ -119,7 +106,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    2 person
+                                    3 person
                                 </div>
                             </div>
                             <div class="d-grid gap-2 my-4"> <a href="book_one.php" class="btn btn-warning">Book Now</a> </div>
@@ -144,7 +131,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    3person
+                                    2 person
                                 </div>
                             </div>
                             <div class="text-center my-4"> <a href="book_one.php" class="btn btn-warning">Book Now</a> </div>
@@ -169,7 +156,7 @@
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    4 person
+                                    1 person
                                 </div>
                             </div>
                             <div class="text-center my-4"> <a href="book_one.php" class="btn btn-warning">Book Now</a> </div>

@@ -50,25 +50,10 @@ if(!isset($_SESSION['phone'])){
                     <a class="nav-link active" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="book.php">booking</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <div class="dropdown">
-                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                            aria-expanded="false" style="color:#f9a826; background:#152238;">
-                            <?php echo "Welcome ". $_SESSION['fullname'];?>
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <li><a class="dropdown-item" href="#">Messages</a></li>
-                            <li><a class="dropdown-item" href="logout.php">Sign out</a></li>
-                        </ul>
-                    </div>
                 </li>
             </ul>
         </div>
@@ -314,7 +299,7 @@ if(!isset($_SESSION['phone'])){
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    1person
+                                    4 person
                                 </div>
                             </div>
 
@@ -341,7 +326,7 @@ if(!isset($_SESSION['phone'])){
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    2 person
+                                    3 person
                                 </div>
                             </div>
                             <div class="d-grid gap-2 my-4"> <a href="book_one.php" class="btn btn-warning">Book Now</a>
@@ -367,7 +352,7 @@ if(!isset($_SESSION['phone'])){
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    3person
+                                    2 person
                                 </div>
                             </div>
                             <div class="text-center my-4"> <a href="book_one.php" class="btn btn-warning">Book Now</a>
@@ -393,7 +378,7 @@ if(!isset($_SESSION['phone'])){
                                 </div>
                                 <div class="col-md-4">
                                     <i class="bi bi-person-check-fill"></i>
-                                    4 person
+                                    1 person
                                 </div>
                             </div>
                             <div class="text-center my-4"> <a href="book_one.php" class="btn btn-warning">Book Now</a>
