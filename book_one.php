@@ -47,10 +47,10 @@ if(!isset($_SESSION['phone'])){
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav w-100 mr-auto">
                 <li class="nav-item ">
-                    <a class="nav-link active" href="index.php">Home</a>
+                    <a class="nav-link " href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="book.php">booking</a>
+                    <a class="nav-link active" href="book.php">book now</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.php">Contact Us</a>
