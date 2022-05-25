@@ -1,6 +1,6 @@
 <div class="my-3 table-responsive">
     <div class="row">
-        <div class="col-md-4 text-center">
+        <div class="col-md-6 text-center">
             <!--Notification Message upon submission-->
             <?php
                 if(isset($_SESSION['status']))
@@ -16,6 +16,25 @@
                 }?>
             <!--Notification Message upon submission-->
         </div>
+       <!--Search Start-->
+        <form action="../actions/search.php" method="POST" class="login-email">
+            <div class="input-group">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-4">
+                                 <label for="search"> Search By Date</label>
+                            </div>
+                            <div class="col-md-6">
+                                 <input type="date"  name="search" required>
+                                  <button name="submit" class="btn" style="background:#152238; color:#f9a826;">Search</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <!--Search End-->
     </div>
     <table class="table">
         <thead>

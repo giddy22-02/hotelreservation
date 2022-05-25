@@ -56,6 +56,16 @@ if(!isset($_SESSION['phone'])){
                     <a class="nav-link" href="contact.php">Contact Us</a>
                 </li>
             </ul>
+             <div class="dropdown my-5">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                            aria-expanded="false" style="color:#f9a826; background:#152238;">
+                            <?php echo "Hello ". $_SESSION['fullname'];?>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="#">Messages</a></li>
+                            <li><a class="dropdown-item" href="logout.php">Sign out</a></li>
+                        </ul>
+                    </div>
         </div>
     </nav>
     <!--========End Navbar======-->
