@@ -45,7 +45,7 @@
     <section class="home-slider d-flex justify-content-left" id="slider">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="card" style="width: 20rem; background:#152238; color:#f9a826;">
                         <div class="card-body">
                             <h2 class="card-title">Welcome to Eagle's Hotel</h2>

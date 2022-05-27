@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 
     <!--Custom CSS-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="cs/style.css">
 </head>
 
 <body>
