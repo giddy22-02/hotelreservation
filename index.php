@@ -80,7 +80,7 @@
                 <p>Enjoy a perfect luxury stay in Nairobi with breath-taking views of the Nairobi National Park. Our
                     guest rooms and suites exude an air of eminence with lavish comforts, generous amenities and
                     designer furnishings. </p>
-                <h5>Amentities</h5>
+                <h5>Amenities</h5>
                 <div class="row">
                     <div class="col-md-6">
                         <p><i class="bi bi-wifi"></i> Free Wi-Fi</p>
